@@ -12,7 +12,7 @@ A small Django project that exposes a `Book` model (title, author) through Graph
 ```bash
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
-pip install django graphene-django
+pip install -r requirements.txt
 ```
 
 Apply migrations and create the database:
